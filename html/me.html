@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me</title>
+    <link rel="stylesheet" href="../css/me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header  class="tab">
+        <section class="tab2">
+            <img src="../image/logo.jfif" alt="">
+            <div class="tab-ul" id="tabul">
+                <i class="fa fa-times" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="me.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>                
+            </div>           
+            <i class="fa fa-bars" onclick="showmenu()"></i> 
+        </section>
+        
+        <div class="text">
+            <h1>About Us </h1>
+            <a href="course.html" class="btn">Know More about our courses</a>
+        </div>
+    </header>
+
+    <main>
+      <section class="attract">
+        <div class="attract-text">
+            <h1>We are the First cheepest Private University in Imo State</h1>
+            <p>The only cheepest private university in Imo state Nigerial that allow those that have financial catastrophy 
+                in building their Educational standard to come and have in abondant, this is the kind of university that
+                allow student to pay their fees instalmentaly, every other thing is free like: buying of text book, hand-out
+                soulting and ot more.
+            </p>
+            <a href="contact.html" class="btn">Contact Us Now</a>
+        </div>
+
+        <div class="attract-img">
+            <img src="../image/student -reading.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="attract">
+        
+        <div class="attract-img">
+            <img src="../image/teacher-student-library.jpg" alt="">
+        </div>
+        <div class="attract-text">
+            <h1>We are the First cheepest Private University in Imo State</h1>
+            <p>The only cheepest private university in Imo state Nigerial that allow those that have financial catastrophy 
+                in building their Educational standard to come and have in abondant, this is the kind of university that
+                allow student to pay their fees instalmentaly, every other thing is free like: buying of text book, hand-out
+                soulting and ot more.
+            </p>
+            <a href="contact.html" class="btn">Contact Us Now</a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="moral">
+             <h2>Our Motto</h2>
+             <p>knowledge excellent and good moral, come and be free from university srike</p>
+             <i class="fa fa-star"></i> 
+             <i class="fa fa-star"></i> 
+             <i class="fa fa-star"></i>         
+            </div>
+         </section>
+     
+    </footer>
+
+    
+    <script>
+        var tabul = document.getElementById("tabul");
+
+        function showmenu(){
+            tabul.style.right = "0";
+        }
+
+        function hidemenu(){
+            tabul.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

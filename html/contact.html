@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header  class="tab">
+        <section class="tab2">
+            <img src="../image/logo.jfif" alt="">
+            <div class="tab-ul" id="tabul">
+                <i class="fa fa-times" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="me.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>                
+            </div>           
+            <i class="fa fa-bars" onclick="showmenu()"></i> 
+        </section>
+        
+        <div class="text">
+            <h1>Contact Us</h1>
+           
+        </div>
+    </header>
+
+    <main>
+      <div class="map-location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15886.231424304218!2d7.0229469!3d5.4838145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104259feb5abe16f%3A0xbdf5f379123fb7ec!2sPRO%20LIFE%20FITNESS!5e0!3m2!1sen!2sng!4v1702736707489!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <section>
+        <div class="location-text">
+            <div class="icon-text">
+              <div>
+              <span><i class="fa fa-home"></i> </span>
+              <span><p>Hezekiah University umudi Imo state Nigeria</p></span>
+              </div>
+              <div>
+                <span><i class="fa fa-phone"></i> </span>
+                <span><p>08022682138 or 09036933131</p></span>
+                </div>
+                <div>
+              <span><i class="fa fa-message"></i> </span>
+              <span><p>onwuegbunampeter90@gmail.com</p></span>
+              </div>
+            </div>
+
+            <div class="blog-form">
+                <p>contact us</p>
+               <form>
+                <input type="text" name="text" placeholder="Enter Your Name">
+                <input type="text" name="text" placeholder="Enter Your Address email">
+                <textarea rows="3" class="area" placeholder="Your Motive"></textarea>
+               </form>
+               <a href="mailto:ccosine100@gmail.com" class="btn">send message</a>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="moral">
+             <h2>Our Motto</h2>
+             <p>knowledge excellent and good moral, come and be free from university srike</p>
+             <i class="fa fa-star"></i> 
+             <i class="fa fa-star"></i> 
+             <i class="fa fa-star"></i>         
+            </div>
+         </section>
+     
+    </footer>
+
+    
+    <script>
+        var tabul = document.getElementById("tabul");
+
+        function showmenu(){
+            tabul.style.right = "0";
+        }
+
+        function hidemenu(){
+            tabul.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
